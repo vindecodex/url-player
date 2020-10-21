@@ -4,10 +4,12 @@
 
 ## How to run ?
 1. npm i
+
 2. npm run dev
 
 ## How to use
 1. Right Click video and copy `video address`
+
 1.2 For youtube right click video and select `copy video url`
 
 ## How to build with your platform ?
