@@ -1,0 +1,10 @@
+{
+  "dest": "release-builds/",
+  "icon": "assets/icons/play-button.png",
+  "categories": [
+    "Media"
+  ],
+  "lintianOverrides": [
+    "changelog-file-missing-in-native-package"
+  ]
+}
