@@ -4,7 +4,9 @@
   "description": "Simple video player through URL",
   "main": "main.js",
   "scripts": {
-    "dev": "electron ."
+    "dev": "electron .",
+    "build-linux": "electron-packager . url-player --asar=true --platform=linux --arch=x64 --overwrite --prune=true --icon=assets/icons/play-button.png --out=release-builds",
+    "create-debian-installer":"electron-installer-debian --src release-builds/url-player-linux-x64/ --arch=amd64 --config debian.json"
   },
   "repository": {
     "type": "git",
