@@ -1,0 +1,28 @@
+{
+  "name": "url-player",
+  "version": "1.0.0",
+  "description": "Simple video player through URL",
+  "main": "main.js",
+  "scripts": {
+    "dev": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vindecodex/url-player.git"
+  },
+  "keywords": [
+    "electron",
+    "javascript",
+    "video",
+    "url"
+  ],
+  "author": "vindecodex (villalunavincent@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vindecodex/url-player/issues"
+  },
+  "homepage": "https://github.com/vindecodex/url-player#readme",
+  "devDependencies": {
+    "electron": "^10.1.4"
+  }
+}
